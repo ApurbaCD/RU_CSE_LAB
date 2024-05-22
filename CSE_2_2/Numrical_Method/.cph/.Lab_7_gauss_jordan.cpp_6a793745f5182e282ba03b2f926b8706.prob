@@ -1,0 +1,1 @@
+{"name":"Local: Lab_7_gauss_jordan","url":"/home/apd/code/CSE_Lab/CSE_2_2/Numrical_Method/Lab_7_gauss_jordan.cpp","tests":[{"id":1710963466621,"input":"3\n1 1 -1 7\n1 -1 2 3\n2 1 1 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/apd/code/CSE_Lab/CSE_2_2/Numrical_Method/Lab_7_gauss_jordan.cpp","group":"local","local":true}

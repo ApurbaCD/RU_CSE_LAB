@@ -1,0 +1,17 @@
+input [3:0]a,b;
+input c;
+output [3:0]s;
+wire [3:0]w,k,m;
+wire cout;
+output cc1;
+bitforbcd bcd1(a,b,c,w,cout);
+and(m[0],w[2],w[3]);
+and(m[1],w[1],w[3]);
+or(m[2],m[1],m[0]);
+or(m[3],m[2],cout);
+and(k[0],c,c);
+or(k[1],m[3],c);
+or(k[2],m[3],c);
+and(k[3],c,c);
+
+bitforbcd bcd2(w,k,c,s,cc1);

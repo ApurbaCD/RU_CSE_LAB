@@ -1,0 +1,1 @@
+{"name":"Local: Lab_6_gauss_elimination","url":"/home/apd/code/CSE_Lab/CSE_2_2/Numrical_Method/Lab_6_gauss_elimination.cpp","tests":[{"id":1710959846037,"input":"3\n2 1  1 10\n3 2 3 18\n1 4 9 16","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/apd/code/CSE_Lab/CSE_2_2/Numrical_Method/Lab_6_gauss_elimination.cpp","group":"local","local":true}

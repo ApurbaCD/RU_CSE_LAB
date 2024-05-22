@@ -1,0 +1,381 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/apd/cse/Modelsim/work
+vbcd
+Z1 !s110 1691777074
+!i10b 1
+!s100 VJG6T4I2hhd_n:4M<RYi>1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I01>THZ?cPg30Kh2YM;N=W0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1690905821
+Z5 8/home/apd/cse/Modelsim/work/BCD_Adder.v
+Z6 F/home/apd/cse/Modelsim/work/BCD_Adder.v
+!i122 78
+L0 26 18
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1691777074.000000
+Z9 !s107 /home/apd/cse/Modelsim/work/BCD_Adder.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/apd/cse/Modelsim/work/BCD_Adder.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vbitforbcd
+R1
+!i10b 1
+!s100 3mQRF`Lg@KOj;Q=1WTgW10
+R2
+I]bk@16hPlbeczWER4>4An2
+R3
+R0
+R4
+R5
+R6
+!i122 78
+L0 13 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vfulladder4bit
+Z13 !s110 1690781254
+!i10b 1
+!s100 =@^D`oc;PT7GeHCJDoan[1
+R2
+I[2dH@<R?S9b_Rj^nCokmY2
+R3
+R0
+Z14 w1690710022
+Z15 8/home/apd/cse/Modelsim/work/4bit.v
+Z16 F/home/apd/cse/Modelsim/work/4bit.v
+!i122 39
+L0 16 13
+R7
+r1
+!s85 0
+31
+Z17 !s108 1690781254.000000
+Z18 !s107 /home/apd/cse/Modelsim/work/4bit.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|/home/apd/cse/Modelsim/work/4bit.v|
+!i113 1
+R11
+R12
+vfulladderbcd
+R1
+!i10b 1
+!s100 g4lK1]Fd0aO^;4@KaBZbG0
+R2
+I:dc]=EO1m:Y49NA1i_^e^2
+R3
+R0
+R4
+R5
+R6
+!i122 78
+L0 1 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vfulladderfor4
+R13
+!i10b 1
+!s100 ]6R<[nP0]4^<W`2_]9RFO3
+R2
+IX?4[_9?H0W2?:3CZGj]OH1
+R3
+R0
+R14
+R15
+R16
+!i122 39
+L0 2 13
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+vhalfadder
+!s110 1690005449
+!i10b 1
+!s100 kRXn4P]Y[05Jk[I5>gXFh1
+R2
+I[Fi9:<RHWDTj_k?8BAa:l0
+R3
+R0
+w1689786097
+8/home/apd/cse/Modelsim/work/fulladder.v
+F/home/apd/cse/Modelsim/work/fulladder.v
+!i122 3
+L0 2 6
+R7
+r1
+!s85 0
+31
+!s108 1690005449.000000
+!s107 /home/apd/cse/Modelsim/work/fulladder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/apd/cse/Modelsim/work/fulladder.v|
+!i113 1
+R11
+R12
+vhalfadder4
+!s110 1690692167
+!i10b 1
+!s100 <A6N:cNg]@[EURdh6<E=<3
+R2
+I8@m@9=T_c3o;NT:V<VzmI3
+R3
+R0
+w1690692140
+R15
+R16
+!i122 15
+L0 2 7
+R7
+r1
+!s85 0
+31
+!s108 1690692167.000000
+R18
+R19
+!i113 1
+R11
+R12
+vmaster
+Z20 !s110 1692852083
+!i10b 1
+!s100 P]0Xio3@jdY0K1?3]10ek0
+R2
+IXH8Zo;I>8WF;0]^ECDzVh3
+R3
+R0
+Z21 w1692852077
+Z22 8/home/apd/cse/Modelsim/work/Sequential_synchronous.v
+Z23 F/home/apd/cse/Modelsim/work/Sequential_synchronous.v
+!i122 107
+L0 2 14
+R7
+r1
+!s85 0
+31
+Z24 !s108 1692852083.000000
+!s107 /home/apd/cse/Modelsim/work/Sequential_synchronous.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|/home/apd/cse/Modelsim/work/Sequential_synchronous.v|
+!i113 1
+R11
+R12
+vmaster_jk_flip_flop
+Z26 !s110 1692520344
+!i10b 1
+!s100 ^6f18U9VaW^BI`KJfb3d23
+R2
+IaZ9T:?iLTC]jTb7jC`WMe2
+R3
+R0
+Z27 w1692469488
+Z28 8/home/apd/cse/Modelsim/work/amni.v
+Z29 F/home/apd/cse/Modelsim/work/amni.v
+!i122 91
+L0 2 15
+R7
+r1
+!s85 0
+31
+Z30 !s108 1692520343.000000
+Z31 !s107 /home/apd/cse/Modelsim/work/amni.v|
+Z32 !s90 -reportprogress|300|-work|work|-stats=none|/home/apd/cse/Modelsim/work/amni.v|
+!i113 1
+R11
+R12
+vmasterslave
+!s110 1692470026
+!i10b 1
+!s100 U;V:Y=MHX_@JY;cafmX3O0
+R2
+IA>B5bSB7`Sn^V?FZULn[]3
+R3
+R0
+w1692470019
+Z33 8/home/apd/cse/Modelsim/work/Synchronuss_Up_Down_Counter.v
+Z34 F/home/apd/cse/Modelsim/work/Synchronuss_Up_Down_Counter.v
+!i122 88
+L0 1 15
+R7
+r1
+!s85 0
+31
+!s108 1692470026.000000
+Z35 !s107 /home/apd/cse/Modelsim/work/Synchronuss_Up_Down_Counter.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|/home/apd/cse/Modelsim/work/Synchronuss_Up_Down_Counter.v|
+!i113 1
+R11
+R12
+vrunmod10
+!s110 1692461823
+!i10b 1
+!s100 DdRJ3`hdei6OdHMSzRIm52
+R2
+InYUT2`akb]`Y12biL6b@53
+R3
+R0
+w1691777066
+8/home/apd/cse/Modelsim/work/MOD_10_Counter.v
+F/home/apd/cse/Modelsim/work/MOD_10_Counter.v
+!i122 80
+L0 17 11
+R7
+r1
+!s85 0
+31
+!s108 1692461823.000000
+!s107 /home/apd/cse/Modelsim/work/MOD_10_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/apd/cse/Modelsim/work/MOD_10_Counter.v|
+!i113 1
+R11
+R12
+vseq
+R20
+!i10b 1
+!s100 cRAE?Si>>S]H2OjoVb7nH2
+R2
+ISj2<4gHRlWjWjlZBflcT73
+R3
+R0
+R21
+R22
+R23
+!i122 107
+L0 16 22
+R7
+r1
+!s85 0
+31
+R24
+Z37 !s107 /home/apd/cse/Modelsim/work/Sequential_synchronous.v|
+R25
+!i113 1
+R11
+R12
+vsyn
+R26
+!i10b 1
+!s100 34853cXma2=MIj_JH]TY32
+R2
+I3^he:SGjjf068OMhE?6I_0
+R3
+R0
+R27
+R28
+R29
+!i122 91
+L0 22 20
+R7
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R11
+R12
+vsyynn
+!s110 1692523627
+!i10b 1
+!s100 i``EB2N7RV`[QGLZMa2Xi3
+R2
+I[3kZEXdJCMeG@nbfAIK>D3
+R3
+R0
+w1692523596
+R33
+R34
+!i122 102
+L0 16 15
+R7
+r1
+!s85 0
+31
+!s108 1692523627.000000
+R35
+R36
+!i113 1
+R11
+R12
+vTB_fa
+R13
+!i10b 1
+!s100 zU:W?XjlKFFdhaF>[92aD3
+R2
+INQT=Qi8^gNNAh3;1dd@RC2
+R3
+R0
+R14
+R15
+R16
+!i122 39
+L0 29 20
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+n@t@b_fa
+vTEST_B_BCD
+R1
+!i10b 1
+!s100 ?kHQ7JSRRCgkoZSgzQc^53
+R2
+IIL01IEj2NfiI:001R^]6j3
+R3
+R0
+R4
+R5
+R6
+!i122 78
+L0 46 16
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@t@e@s@t_@b_@b@c@d

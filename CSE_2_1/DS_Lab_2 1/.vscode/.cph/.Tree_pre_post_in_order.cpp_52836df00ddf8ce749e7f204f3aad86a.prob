@@ -1,0 +1,1 @@
+{"name":"Local: Tree_pre_post_in_order","url":"/home/apd/code/DS_Lab_2 1/.vscode/Tree_pre_post_in_order.cpp","tests":[{"id":1691587789866,"input":"7\n8 5 10 4 6 11 12","output":"8 5 4 6 10 11 12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/apd/code/DS_Lab_2 1/.vscode/Tree_pre_post_in_order.cpp","group":"local","local":true}

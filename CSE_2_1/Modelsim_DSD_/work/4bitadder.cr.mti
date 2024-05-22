@@ -1,0 +1,44 @@
+/home/apd/cse/Modelsim/work/BCD_Adder.v {1 {vlog -work work -stats=none /home/apd/cse/Modelsim/work/BCD_Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladderbcd
+-- Compiling module bitforbcd
+-- Compiling module bcd
+-- Compiling module TEST_B_BCD
+
+Top level modules:
+	TEST_B_BCD
+
+} {} {}} /home/apd/cse/Modelsim/work/amni.v {1 {vlog -work work -stats=none /home/apd/cse/Modelsim/work/amni.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module master_jk_flip_flop
+-- Compiling module syn
+
+Top level modules:
+	syn
+
+} {} {}} /home/apd/cse/Modelsim/work/Synchronuss_Up_Down_Counter.v {1 {vlog -work work -stats=none /home/apd/cse/Modelsim/work/Synchronuss_Up_Down_Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module master
+-- Compiling module syynn
+
+Top level modules:
+	syynn
+
+} {} {}} /home/apd/cse/Modelsim/work/4bit.v {1 {vlog -work work -stats=none /home/apd/cse/Modelsim/work/4bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladderfor4
+-- Compiling module fulladder4bit
+-- Compiling module TB_fa
+
+Top level modules:
+	TB_fa
+
+} {} {}} /home/apd/cse/Modelsim/work/MOD_10_Counter.v {1 {vlog -work work -stats=none /home/apd/cse/Modelsim/work/MOD_10_Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module masterslave
+-- Compiling module runmod10
+
+Top level modules:
+	runmod10
+
+} {} {}}

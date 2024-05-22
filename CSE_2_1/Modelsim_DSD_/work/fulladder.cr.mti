@@ -1,0 +1,13 @@
+/home/apd/cse/Modelsim/work/fulladder.v {2 {vlog -work work -stats=none /home/apd/cse/Modelsim/work/fulladder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfadder
+** Warning: /home/apd/cse/Modelsim/work/fulladder.v(7): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /home/apd/cse/Modelsim/work/fulladder.v(37): (vlog-2284) Empty $unit scope found.
+-- Compiling package fulladder_v_unit
+-- Compiling module fulladder
+-- Compiling module TB__FA
+
+Top level modules:
+	TB__FA
+
+} {} {}}

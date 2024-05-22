@@ -1,0 +1,35 @@
+module master(q,qb,j,k,clr,clk);
+input j,k,clr,clk;
+output q,qb;
+wire a,y,c,b,z,d,clkb;
+not(clkb,clk);
+nand(a,qb,clk,j,clr);
+nand(b,q,k,clk);
+nand(y,z,a);
+nand(z,y,clr,b);
+nand(c,clkb,y);
+nand(d,clkb,z);
+nand(q,qb,c);
+nand(qb,clr,q,d);
+endmodule
+
+module syynn(q, q_bar, clr, clk, mode);
+    output [2:0] q, q_bar;
+    input clr, clk, mode;
+    wire mode_bar, and1, and2, and3, and4, or1, or2;
+    not(mode_bar, mode);
+
+    master mjk0(q[0], q_bar[0], 1, 1, clr, clk);
+
+    and(and1, q[0], mode_bar);
+    and(and2, q_bar[0], mode);
+    or(or1, and1, and2);
+
+    master jk1(q[1], q_bar[1], or1, or1, clr, clk);
+
+    and(and3, and1, q[1]);
+    and(and4, and2, q_bar[1]);
+    or(or2, and3, and4);
+
+    master k2(q[2], q_bar[2], or2, or2, clr, clk);
+endmodule

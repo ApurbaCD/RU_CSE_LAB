@@ -1,0 +1,37 @@
+
+module halfadder(A,B,S,C);
+input A,B;
+output S,C;
+xor(S,A,B);
+and(C,A,B);
+endmodule;
+
+
+
+module fulladder(a1,b1,cin1,s1,c1);
+input a1,b1,cin1;
+output s1,c1;
+wire w1,w2,w3;
+halfadder hf1(a1,b1,w1,w2);
+halfadder hf2(w1,cin1,s1,w3);
+or(c1,w2,w3);
+endmodule
+
+
+module TB__FA();
+reg a2,b2,cin2;
+wire s2,cout2;
+fulladder fa2(a2,b2,cin2,s2,cout2);
+initial 
+begin
+a2=1'b0;b2=1'b0;cin2=1'b0;
+#100
+a2=1'b0;b2=1'b0;cin2=1'b1;
+#100
+a2=1'b1;b2=1'b1;cin2=1'b0;
+#100
+a2=1'b1;b2=1'b0;cin2=1'b1;
+#100
+a2=1'b1;b2=1'b1;cin2=1'b1;
+end
+endmodule

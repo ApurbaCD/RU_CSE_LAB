@@ -1,0 +1,61 @@
+module fulladderbcd(A,B,C,S,COUT);
+input A,B,C;
+output S,COUT;
+wire W1,W2,W3;
+xor(W1,A,B);
+xor(S,C,W1);
+and(W2,A,B);
+and(W3,W1,C);
+or(COUT,W2,W3);
+endmodule
+////////
+
+module bitforbcd(a1,b1,c1,s1,cout1);
+input [3:0]a1,b1;
+input c1;
+output cout1;
+output [3:0]s1;
+wire w1,w2,w3;
+fulladderbcd bc1(a1[0],b1[0],c1,s1[0],w1);
+fulladderbcd bc2(a1[1],b1[1],w1,s1[1],w2);
+fulladderbcd bc3(a1[2],b1[2],w2,s1[2],w3);
+fulladderbcd bc4(a1[3],b1[3],w3,s1[3],cout1);
+
+endmodule
+
+module bcd(a,b,c,s,cout1);
+input [3:0]a,b;
+input c;
+output [3:0]s;
+output cc1;
+wire [3:0] ss1,ss2;
+wire cout1,w1,w2,w3,w4;
+bitforbcd bcd1(a,b,c,ss1,cc1);
+and(w1,ss1[2],ss1[3]);
+and(w2,ss1[1],ss1[3]);
+or(w3,w1,w2);
+or(w4,w3,cc1);
+or(ss2[1],c,w4);
+or(ss2[2],c,w4);
+and(ss2[0],c,w4);
+and(ss2[3],c,w4);
+bitforbcd bcd2(ss1,ss2,c,s,cout1);
+endmodule
+
+/////////
+module TEST_B_BCD();
+reg [3:0] a,b;
+reg c;
+wire [3:0]s;
+wire cc2;
+bcd bcd3(a,b,c,s,cc2);
+initial 
+begin 
+a=4'b0000;b=4'b0001;c=0'b0;
+#100;
+a=4'b0001;b=4'b0011;c=0'b0;
+#100;
+a=4'b1001;b=4'b1001;c=0'b0;
+#100;
+end
+endmodule
